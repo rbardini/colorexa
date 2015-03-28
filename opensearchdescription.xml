@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>colorexa</ShortName>
+  <LongName>colorexa lookup</LongName>
+  <Description>Quickly lookup for a color by typing its hexadecimal code.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <AdultContent>false</AdultContent>
+  <Language>en-US</Language>
+  <Developer>Rafael Bardini</Developer>
+  <Contact>rafael@rbardini.com</Contact>
+  <Tags>color, lookup, rgb, hex, hexadecimal, background</Tags>
+  <SyndicationRight>open</SyndicationRight>
+  <Query role="example" searchTerms="FF0000" />
+  <Url type="text/html" template="http://rbardini.github.io/colorexa/#{searchTerms}" />
+</OpenSearchDescription>
