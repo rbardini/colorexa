@@ -32,15 +32,21 @@
     }
   }
 
+  function updateTitle (color) {
+    document.title = '#' + color
+  }
+
   function fillAndUpdate (color) {
     color = color.toUpperCase()
 
     var isColor = color.match(colorRegex)
-    var finalColor = isColor ? color : defaultColor
+    var colorValue = isColor ? color : defaultColor
+    var colorName = isColor ? colorValue : ''
 
-    document.body.style.background = '#' + finalColor
-    window.location.hash = isColor ? finalColor : ''
-    updateFavicon(finalColor)
+    document.body.style.background = '#' + colorValue
+    window.location.hash = colorName
+    updateFavicon(colorValue)
+    updateTitle(colorName)
 
     return isColor
   }
