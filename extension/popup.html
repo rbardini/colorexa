@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>colorexa</title>
+    <meta name="author" content="Rafael Bardini" />
+    <meta name="description" content="Quickly lookup for a color by typing or highlighting its hexadecimal code." />
+    <meta name="keywords" content="color, lookup, rgb, hex, hexadecimal, background" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <script src="js/app.js" defer></script>
+    <style>
+      * {border: 0; margin: 0; outline: 0; padding: 0}
+      html, body {width:480px; height:320px}
+      body {background: #FFF; transition: background 0.4s ease}
+      label, input {color: #000; font: 48px Menlo, Monaco, Consolas, monospace}
+      label {background: #FFF; display: inline-block; opacity: 0.4; padding-left: 10px; width: 100%}
+      input {background: transparent; text-transform: uppercase}
+    </style>
+  </head>
+  <body>
+    <label>#<input type="text" maxlength="6" size="6" placeholder="FFFFFF" autofocus /></label>
+  </body>
+</html>
