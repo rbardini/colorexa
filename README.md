@@ -1,4 +1,4 @@
-# [colorexa](http://rbardini.github.io/colorexa)
+# [colorexa](https://colorexa.rbrd.in)
 
 Quickly lookup for a color by typing its hexadecimal code.
 

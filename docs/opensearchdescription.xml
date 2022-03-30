@@ -13,7 +13,7 @@
   <Attribution>By Rafael Bardini, https://rbardini.com/</Attribution>
   <SyndicationRight>open</SyndicationRight>
   <Query role="example" searchTerms="FF0000" />
-  <Image height="16" width="16" type="image/vnd.microsoft.icon">https://rbardini.github.io/colorexa/favicon.ico</Image>
-  <Image height="57" width="57" type="image/png">https://rbardini.github.io/colorexa/apple-touch-icon.png</Image>
-  <Url type="text/html" template="https://rbardini.github.io/colorexa/#{searchTerms}" />
+  <Image height="16" width="16" type="image/vnd.microsoft.icon">https://colorexa.rbrd.in/favicon.ico</Image>
+  <Image height="57" width="57" type="image/png">https://colorexa.rbrd.in/apple-touch-icon.png</Image>
+  <Url type="text/html" template="https://colorexa.rbrd.in/#{searchTerms}" />
 </OpenSearchDescription>
